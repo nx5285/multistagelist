@@ -1,0 +1,41 @@
+body,h3,h4,h5,h6{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.box{
+	width: 300px;
+	margin: 50px auto;
+	border: 2px solid blue;
+}
+h3{
+	font: 24px/32px "微软雅黑";
+	color: #555555;
+}
+h4{
+	font: 20px/26px "微软雅黑";
+	color: #333;
+}
+h5{
+	font: 16px/26px "微软雅黑";
+	color: #000;
+}
+h3,h4,h5{
+	padding-left: 0;
+	cursor: pointer;
+}
+li{
+	font: 12px/20px "微软雅黑";
+	color: blueviolet;
+	padding-left: 15px;
+	cursor: pointer;
+}
+.item{
+	margin-bottom: 10px;
+}
+.item ul{
+	display: none;
+}
